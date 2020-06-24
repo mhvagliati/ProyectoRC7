@@ -1,0 +1,114 @@
+body,
+html {
+  background-color: rgb(250, 250, 250);
+
+  }
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+
+
+.padre{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+   
+
+  
+
+}
+
+.hijo{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: black;
+  padding: 40px;
+
+}
+
+.par{
+  font-size: larger;
+  font-style: comic;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nieto{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: black;
+  }
+
+nav {
+  background:#ffffff;
+  padding: 2px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 10px 30px;
+}
+
+nav a{
+  color: #000000;
+}
+
+nav a:visited{
+  color: black;
+
+}
+
+nav a:hover{
+  color: #008fd1;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+article a{
+  color: black;
+  font-size: 30px;
+}
+article a:hover{
+  color: #008fd1;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  text-shadow: #999;
+  text-align: center;
+  background-color:#008fd1;
+  
+}
+
+footer address a{
+  color: #ffffff;
+}
+
+footer a{
+  color: #ffffff
+}
+footer a:visited{
+  color: #ffffff
+}
+
